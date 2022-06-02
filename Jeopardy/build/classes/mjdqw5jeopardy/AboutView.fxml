@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mjdqw5jeopardy.AboutViewController">
+   <children>
+      <Label layoutX="138.0" layoutY="101.0" text="Hello and Welcome to Jeopardy">
+         <font>
+            <Font name="Apple SD Gothic Neo Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="29.0" prefWidth="163.0" text="Created by Michael Dillahunty" />
+      <Label layoutX="14.0" layoutY="35.0" prefHeight="17.0" prefWidth="163.0" text="Pawprint: Mjdqw5" />
+      <Label layoutX="14.0" layoutY="52.0" text="CS3330 Final Project" />
+      <HBox layoutX="135.0" layoutY="130.0" prefHeight="100.0" prefWidth="332.0" />
+      <Button fx:id="aboutBackBtn" layoutX="50.0" layoutY="102.0" mnemonicParsing="false" onAction="#aboutBackAction" text="Back" />
+   </children>
+</AnchorPane>
