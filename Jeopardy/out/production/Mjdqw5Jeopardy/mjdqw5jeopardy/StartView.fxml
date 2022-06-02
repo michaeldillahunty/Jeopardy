@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mjdqw5jeopardy.StartViewController">
+   <children>
+      <HBox layoutX="124.0" layoutY="52.0" prefHeight="67.0" prefWidth="353.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="67.0" prefWidth="353.0" text="WELCOME TO JEOPARDY!" textAlignment="CENTER">
+               <font>
+                  <Font name="Apple SD Gothic Neo Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="129.0" layoutY="120.0" prefHeight="53.0" prefWidth="345.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="345.0" text="What would you like to do?">
+               <font>
+                  <Font name="Apple SD Gothic Neo Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="126.0" layoutY="173.0" prefHeight="47.0" prefWidth="345.0" spacing="40.0">
+         <children>
+            <SplitMenuButton fx:id="gameModeSelect" mnemonicParsing="false" onAction="#gameModeSelectAction" prefHeight="27.0" prefWidth="154.0" text="Select Gamemode">
+              <items>
+                <MenuItem fx:id="gamemode1" mnemonicParsing="false" onAction="#gamemode1Action" text="Single Player [Trivia]" />
+                <MenuItem fx:id="gamemode2" mnemonicParsing="false" onAction="#gamemode2Action" text="Multiplayer [Jeopardy" />
+              </items>
+               <font>
+                  <Font name="Apple SD Gothic Neo Bold" size="13.0" />
+               </font>
+            </SplitMenuButton>
+            <Button fx:id="startScreenExitBtn" mnemonicParsing="false" onAction="#handleMainExit" prefHeight="27.0" prefWidth="50.0" text="Exit">
+               <font>
+                  <Font name="Apple SD Gothic Neo Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="startScreenRulesBtn" layoutX="370.0" layoutY="257.0" mnemonicParsing="false" onAction="#handleRulesButton" text="Rules">
+         <font>
+            <Font name="Apple SD Gothic Neo Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="startAboutBtn" layoutX="368.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleStartAbout" text="About">
+         <font>
+            <Font name="Apple SD Gothic Neo Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewScore" layoutX="175.0" layoutY="220.0" mnemonicParsing="false" onAction="#viewScoreBtn" prefHeight="27.0" prefWidth="154.0" text="View Scores (Database)" />
+   </children>
+</AnchorPane>
