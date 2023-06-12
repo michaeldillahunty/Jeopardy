@@ -1,2 +1,2 @@
 # Jeopardy
-Java 8, JavaFX, JavaFXML
+This application was created using Java8, JavaFX and JavaFXML
