@@ -5,4 +5,4 @@ This application was created using Java8, JavaFX/JFX SceneBuilder
 ## About
 Basic version of the classic 'Jeopardy' game/show
 
-**Database is no longer connected as I am no longer paying for the AWS instance it was running on**
+**Note: Database is no longer connected as I am no longer paying for the AWS instance it was running on**
